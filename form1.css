@@ -1,0 +1,100 @@
+body
+{
+	margin:0;
+	padding: 0;
+	background-image: url(imges/body.jpg);
+	background-size: cover;
+
+
+}
+.title
+{
+	text-align: center;
+	color: rgb(255,255,255);
+	margin-top: 20px;
+	padding: 50px 0px 20px;
+	text-transform: uppercase;
+}
+.container
+{
+	width: 50%;
+	height: 400px;
+	background-color: rgb(255,255,255);
+	margin:auto;
+	border:2px solid #fff;
+}
+.container .left
+{
+	float:left;
+	width: 50%;
+	height: 400px;
+	background-image: url(imges/back.jpg);
+	background-size: cover;
+	box-sizing: border-box;
+
+
+
+}
+.container .right
+{
+	float: right;
+	width: 50%;
+	height: 400px;
+	box-sizing: border-box;
+
+
+
+}
+.boxform
+{
+	width: 120px;
+	height: 400px;
+	padding:80px 40px;
+	box-sizing: border-box;
+	background-color: #fff;
+
+
+
+}
+.boxform p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #a6af13;
+
+}
+.boxform input
+{
+	width: 200px;
+	margin-bottom: 20px;
+
+}
+.boxform input[type="text"],
+.boxform input[type="password"]
+{
+	border:none;
+	border-bottom: 3px solid  #a6af13;
+	outline: none;
+	height: 40px;
+
+}
+.boxform input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	background: #262626;
+	cursor: pointer;
+
+
+}
+.boxform input[type="submit"]:hover
+{
+	background :#a6af13;
+}
+a:hover
+{
+	background :#a6af13;
+}
